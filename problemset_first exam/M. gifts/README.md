@@ -24,7 +24,7 @@ fair.in
 1 10 5 6
 1 2 3 5
 ```
-standard output
+standard output  
 `` not fair``
 
 2.
@@ -34,5 +34,5 @@ fair.in
 4 2
 3 3
 ```
-standard output
+standard output  
 `` fair``

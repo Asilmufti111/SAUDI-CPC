@@ -19,15 +19,18 @@ If not, print "NO" (without the quotes and case insensitive).
 1. 
 
 good.in   
-`` abcaa 5 ``
-standard output  ``NO``
+`` abcaa 5 ``  
+standard output   
+``NO``
 
 2. 
 good.in   
-`` helloo 2 ``
-standard output  ``YES l``
+`` helloo 2 ``  
+standard output  
+  ``YES l``
 
 3. 
 good.in   
-`` eefaa 2  ``
-standard output  ``YES e``
+`` eefaa 2  ``  
+standard output    
+  ``YES e``
