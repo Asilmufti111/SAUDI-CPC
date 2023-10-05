@@ -21,7 +21,7 @@ be in any program coding for problem solving */
 // this command make the program runs fast
 #define aa ios::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 
-// important to make the program start and run
+// important command to make the program start and run
 using namespace std;
 
 int main() {
