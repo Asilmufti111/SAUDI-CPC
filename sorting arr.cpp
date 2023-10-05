@@ -15,11 +15,13 @@ int main() {
     for (int i=0;i<n;i++){
         cin>>arr[i];
     }
+    //printing the original array
     for (int i=0;i<n;i++){
         cout<<arr[i]<<" ";
     }
     cout<<"\n";
     sort(arr,arr+n);
+    //printing the sorted array
     for (int i=0;i<n;i++){
         cout<<arr[i]<<" ";
     }
