@@ -1,0 +1,26 @@
+// importing all libraries in cpp
+#include<bits/stdc++.h>
+// the most commen use libraries
+#include <fstream>
+#include <iostream>
+#include <deque>
+#include <vector>
+#include<algorithm>
+#include <list>
+#include <set>
+#include <map>
+// making abbreviation
+#define endl '\n'
+#define ll long long
+// this command make the program runs fast
+#define aa ios::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
+// important to make the program start and run
+using namespace std;
+int main() {
+    aa;
+// read the input from file 
+    //freopen("input.in", "r", stdin);
+// write the output on file 
+    //ifstream cin("files.in");
+    }
+
