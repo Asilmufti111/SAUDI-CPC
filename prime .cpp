@@ -52,3 +52,45 @@ int main(){
 
     solve();
 }
+
+
+
+////////////////// another way for finding if the number is prime or not ////////////////////
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+    int t;
+    cin>>t;
+    while (t--){
+        int n;
+        cin>>n;
+        int p=1; // is prime?
+        if (n==2){
+             cout<<"Prime"<<endl;
+
+        }else if (n==1){ 
+            cout<<"Not prime"<<endl; // becouse prime # should be >1;
+        }
+        else {
+            for (int i=2;i<=n/2;++i){ // = is important in the condition.
+            if (n%i==0){
+                p=0;
+                break; //important for TLE!!
+            }
+        }
+        if (p){
+            cout<<"Prime"<<endl;
+        }else cout<<"Not prime"<<endl;
+        }
+        
+    } 
+    return 0;
+}
