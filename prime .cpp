@@ -66,10 +66,6 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
-    int t;
-    cin>>t;
-    while (t--){
         int n;
         cin>>n;
         int p=1; // is prime?
@@ -90,7 +86,6 @@ int main() {
             cout<<"Prime"<<endl;
         }else cout<<"Not prime"<<endl;
         }
-        
-    } 
+    
     return 0;
 }
